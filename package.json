@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-      "dev": "node index.js",
-      "start": "node index.js"
+    "dev": "node index.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Kavindi516/WEB_API/issues"
   },
-  "homepage": "https://github.com/Kavindi516/WEB_API#readme"
+  "homepage": "https://github.com/Kavindi516/WEB_API#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
