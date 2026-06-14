@@ -9,6 +9,10 @@ app.get('/', (req, res) => {
 });
 
 // Start the server
+if(process.env.NODE_ENV !== 'production') {
 app.listen(port, () => {
   console.log(`Server running at ${port}`);
 });
+}
+
+module.exports = app;
